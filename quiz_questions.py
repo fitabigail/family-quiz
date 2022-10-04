@@ -1,5 +1,6 @@
-quiz_question_data = [
-    
+# Will creat a dictionary with a list of quiz questions and answers
+
+quiz_question_data = [    
     {"text": "Who is the Special in the Lego Movie?",
      "answer": "Emmet Brickowski"},
     {"text": "What colour are most buses in London?",
