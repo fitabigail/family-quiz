@@ -23,6 +23,9 @@ while quiz_new.another_question():
     """
     quiz_new.next_quest()
 
+print("Congrats you have complete the Quiz!")  
+print(f"Your final score was: {quiz_new.score}/{len(quiz_list)}")  
+
 
 
 
