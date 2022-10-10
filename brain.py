@@ -1,3 +1,8 @@
+import pyfiglet
+import colorama
+from colorama import Fore, Back, Style
+colorama.init(autoreset=True)
+
 class QuizBrain:
     def __init__(self, quest_list):
         self.quest_num = 0
@@ -26,15 +31,15 @@ class QuizBrain:
         Print user score  after each question
         """
         while user_answer.lower() not in ['true', 'false']:
-            print("Sorry not a valid answer")
+            print(f"{Fore.RED}Sorry not a valid answer")
             user_answer = input("Please insert another answer (True/False):")
         if user_answer.lower() == correct_answer.lower():
             self.score += 1
-            print("Correct")
+            print(f"{Fore.GREEN}Correct answer")
         else:
-            print("Inccorect answer.")
-        print(f"The correct answer was: {correct_answer}.")
-        print(f"Your current score is {self.score}/{self.quest_num}")
+            print(f"{Fore.RED}Inccorect answer.")
+        print(f"{Fore.YELLOW}The correct answer was: {correct_answer}.")
+        print(f"Your current score is {Fore.BLUE}{self.score}/{self.quest_num}")
         print("\n")
       
 
