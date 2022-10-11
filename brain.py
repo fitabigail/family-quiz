@@ -23,14 +23,14 @@ class QuizBrain:
         self.quest_num += 1 
         print("-------------------\n") 
         print(f"Q.{self.quest_num}: {active_quest.text}  ")          
-        user_answer = input("Your answer (True/False): \n")       
+        user_answer = input("Your answer (True/False)(t/f):  ")       
         self.keep_score(user_answer, active_quest.answer)
 
     def  keep_score(self, user_answer, correct_answer):
         """
         Print user score  after each question
         """
-        while user_answer.lower() not in ['true', 'false']:
+        while user_answer.lower() not in ['true', 't', 'false', 'f']:
             print(f"{Fore.RED}Sorry not a valid answer")
             user_answer = input("Please insert another answer (True/False): \n")
         if user_answer.lower() == correct_answer.lower():
