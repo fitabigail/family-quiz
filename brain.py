@@ -22,8 +22,8 @@ class QuizBrain:
         active_quest = self.list[self.quest_num]
         self.quest_num += 1 
         print("-------------------\n") 
-        print(f"Q.{self.quest_num}: {active_quest.text}  ")          
-        user_answer = input("Your answer (True/False)(t/f):  ")       
+        print(f"\n Q.{self.quest_num}: {active_quest.text}  ")          
+        user_answer = input(f"\n Your answer (True/False)(t/f):  ")       
         self.keep_score(user_answer, active_quest.answer)
 
     def  keep_score(self, user_answer, correct_answer):
@@ -31,15 +31,15 @@ class QuizBrain:
         Print user score  after each question
         """
         while user_answer.lower() not in ['true', 't', 'false', 'f']:
-            print(f"{Fore.RED}Sorry not a valid answer")
-            user_answer = input("Please insert another answer (True/False): \n")
+            print(f"\n {Fore.RED}Sorry not a valid answer")
+            user_answer = input(f"\n Please insert another answer (True/False): ")
         if user_answer.lower() == correct_answer.lower():
             self.score += 1
-            print(f"{Fore.GREEN}Correct answer")
+            print(f"\n {Fore.GREEN}Correct answer")
         else:
-            print(f"{Fore.RED}Inccorect answer.")
-        print(f"{Fore.YELLOW}The correct answer was: {correct_answer}.")
-        print(f"Your current score is {Fore.BLUE}{self.score}/{self.quest_num}")
+            print(f"\n {Fore.RED}Inccorect answer.")
+        print(f"\n {Fore.YELLOW}The correct answer was: {correct_answer}.")
+        print(f"\n Your current score is {Fore.BLUE}{self.score}/{self.quest_num}")
         print("\n")
       
 

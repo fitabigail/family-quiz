@@ -1,5 +1,6 @@
 import re
 import pyfiglet
+from pyfiglet import figlet_format
 import colorama
 from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
@@ -52,11 +53,11 @@ def print_welcome_message():
     """
     quiz_rules = False
 
-    print(f'{Fore.YELLOW}Welcome to your Family Quiz.\n\n'
-          f'{Fore.CYAN}To keep you entertained, we are bringing you another Quiz.\n')
+    print(f'\n {Fore.YELLOW}Welcome to your Family Quiz.\n\n'
+          f'\n {Fore.CYAN}To keep you entertained, we are bringing you another Quiz.\n')
 
     while quiz_rules is False:
-        choise = input(f' See here quiz {Fore.RED}rules. Choose {Fore.BLUE}(yes / no ): ')
+        choise = input(f'\n See here quiz {Fore.RED}rules. Choose {Fore.GREEN}(yes / no ): ')
         choise = choise.lower()
         if choise == 'yes':
             quiz_rules = True
