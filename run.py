@@ -1,18 +1,11 @@
-import re
 import pyfiglet
 from pyfiglet import figlet_format
 import colorama
-from colorama import Fore, Back, Style
+from colorama import Fore
 colorama.init(autoreset=True)
 from model_quest import Quiz
 from quiz_questions import quiz_question_data
 from brain import QuizBrain
-
-
-
-
-MSG = 'Welcome To FamilyQuiz'
-FRONT = 'standard'
 
 
 def title_start():
@@ -20,8 +13,9 @@ def title_start():
     Print an welcome title customized by pyfilet and colorama, and
     an emoji ASCII art image from https://text-symbols.com/ascii-art/#all_cats
     """
-    title = pyfiglet.Figlet(font=FRONT)    
-    print(Fore.YELLOW + Style.BRIGHT + title.renderText(MSG))
+    
+    title = pyfiglet.figlet_format("Family Quiz", font = "slant"  )
+    print(f'{Fore.YELLOW}{title}')
     print(emoji_display)
 
 
@@ -45,6 +39,7 @@ emoji_display = \
 
 """
 
+    
 
 def print_welcome_message():
     """
@@ -53,7 +48,7 @@ def print_welcome_message():
     """
     quiz_rules = False
 
-    print(f'\n {Fore.YELLOW}Welcome to your Family Quiz.\n\n'
+    print(f'\n {Fore.YELLOW} Welcome to your Family Quiz.\n\n'
           f'\n {Fore.CYAN}To keep you entertained, we are bringing you another Quiz.\n')
 
     while quiz_rules is False:
@@ -87,14 +82,17 @@ title_start()
 print_welcome_message()
 
 
+
+
+
 quiz_list = []
 """
    Creating a question list of questing object using the class Quiz 
    for model question
 """
 for question in quiz_question_data:      
-    question_text = question["text"]
-    question_answer = question["answer"]    
+    question_text = question["question"]
+    question_answer = question["correct_answer"]    
     new_question = Quiz(question_text, question_answer)   
     quiz_list.append(new_question)
  
@@ -108,8 +106,7 @@ while quiz_new.another_question():
     """
     quiz_new.next_quest()
 
-print("Congrats you have complete the Quiz!")  
+print("Congrats you have complete the Quiz!\n")  
 print(f"{Fore.CYAN}Your final score was: {quiz_new.score}/{len(quiz_list)}")
-
 
 
