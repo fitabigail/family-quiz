@@ -1,11 +1,11 @@
+from model_quest import Quiz
+from quiz_questions import quiz_question_data
+from brain import QuizBrain
 import pyfiglet
 from pyfiglet import figlet_format
 import colorama
 from colorama import Fore
 colorama.init(autoreset=True)
-from model_quest import Quiz
-from quiz_questions import quiz_question_data
-from brain import QuizBrain
 
 
 def title_start():
@@ -39,7 +39,6 @@ emoji_display = \
 
 """
 
-    
 
 def print_welcome_message():
     """
@@ -80,9 +79,6 @@ def print_welcome_message():
 
 title_start()
 print_welcome_message()
-
-
-
 
 
 quiz_list = []

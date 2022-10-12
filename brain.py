@@ -1,9 +1,8 @@
 import pyfiglet
 import colorama
 from colorama import Fore, Back, Style
-colorama.init(autoreset = True)
+colorama.init(autoreset=True)
        
-
 
 class QuizBrain:
     def __init__(self, quest_list):
