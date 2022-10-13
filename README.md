@@ -5,6 +5,7 @@
 Project is deployed [here]( https://family-quiz-pp3.herokuapp.com/)   
 Github repository is [here](https://github.com/fitabigail/family-quiz) 
 
+![I am responsive](/views/readme_img/imresponsive.png)
 
 # Aim of the program
 
