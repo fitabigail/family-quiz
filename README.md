@@ -176,9 +176,7 @@ The code has been put through validation PEP8 validator added to Gitpod Workspac
 * the code for title was not diplayed properly to Heroku , so I have fixed the issue by changing the code syntax.
 
 # Remaining bugs:
-
-* title when is displayed to Heroku is not seen up to not scrool up, I could not fixed.
-* the program is running inthe window without any margins and paddings.
+* no bugs remaining that Iam aware of.
 
 # Deployment
 
