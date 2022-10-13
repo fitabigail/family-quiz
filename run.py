@@ -14,7 +14,7 @@ def title_start():
     an emoji ASCII art image from https://text-symbols.com/ascii-art/#all_cats
     """
     
-    title = pyfiglet.figlet_format("Family Quiz", font = "slant"  )
+    title = pyfiglet.figlet_format("Family Quiz", font="slant")
     print(f'{Fore.YELLOW}{title}')
     print(emoji_display)
 
