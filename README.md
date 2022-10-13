@@ -242,9 +242,11 @@ By forking out of this repository you will be able to view and edit the code wit
 
 </details>
 
+
+
+
 # Credits
 
-<details><summary>Code/Reference</summary></details>
 
 ### Code/Reference 
 
@@ -262,3 +264,8 @@ I have followed one main tutuorial and I work hard to understand the Object Orie
 ### Images
 - emoji image - ASCII Art from https://text-symbols.com/ascii-art/#all_cats
 
+### Note 
+ - I'd like to thank my mentor Ronan McClelland for his guidance throughout my project. 
+ - I would like to thank everyone for all and any assistance given during the development of my website. 
+ - All information within this website is for education and training purposes only .
+ - All code has been as much as possible credited to the source that the code came from.
