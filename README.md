@@ -127,6 +127,9 @@ Styling in the terminal is very limited. The interaction with the user is by Val
 - Libraries:
     * colorama
     * pyfiglet
+    
+## Validation
+    
 
 The code has been put through validation PEP8 validator added to Gitpod Workspace, as the pep8online.com is currently down. The PEP8 validator was installed to gitpod with command pip3 install pycodestyle, and you can follow the next steps to install:
 
