@@ -63,7 +63,7 @@ The project was designed for the purpouse of completing Portofolio 3 Project for
 *  IMAGE - [ascii art](https://text-symbols.com/ascii-art/#all_cats) the emoji is shown when the program starts. This give a nice introduction to the quiz with the image of emoji whishing good luck to the player.
 
 
-![emoji](../family-quiz/readme_img/emoji.png)
+![emoji](/views/readme_img/emoji.png)
 
 *  COLORAMA added feature to allow diffrent colors of fonts to display in the terminal.This feature aims to help the user understand what the program is doing or what is expected of the user. Since the comand-line is not user-friendly, the user is not used to read various lines to understand that there was an error returned. Once the  error message is in red it stands out amongst other lines and allows the user to act on it.
 
@@ -83,23 +83,23 @@ Various colors are used to help user better undertand the requirements of the pr
 
 
 
-![title](../family-quiz/readme_img/title.png)
+![title](/views/readme_img/title.png)
 
-![error](../family-quiz/readme_img/rules_err.png)
+![error](/views/readme_img/rules_err.png)
 
-![correct](../family-quiz/readme_img/correct_ans.png)
+![correct](/views/readme_img/correct_ans.png)
 
-![rules](../family-quiz/readme_img/rules.png)
+![rules](/views/readme_img/rules.png)
 
 
-![score](../family-quiz/readme_img/final_score.png)
+![score](/views/readme_img/final_score.png)
 
 
 </details>
 
 * Validation Various validation on user input allows the user to run the program without errors. Validation aims to capture various incorrect entries by the user and give feedback to the user. This way the user can give correct input and the program will give the user result. This also prevents the program from crushing. An example of an error validation message can be found below:
 
-![error](../family-quiz/readme_img/rules_err.png)
+![error](/views/readme_img/rules_err.png)
 
 * Terminal of 80 characters wide and 24 rows high
 
