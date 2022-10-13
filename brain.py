@@ -31,7 +31,7 @@ class QuizBrain:
         """
         Print user score  after each question
         """
-        while user_answer.lower() not in ['true','false']:
+        while user_answer.lower() not in ['true', 'false']:
             print(f" \n {Fore.RED}Sorry not a valid answer")
             user_answer = input(f" \n Please insert another answer (True/False): ")
         if user_answer.lower() == correct_answer.lower():

@@ -41,9 +41,13 @@ The project was designed for the purpouse of completing Portofolio 3 Project for
 
     The flow chart showing the logic of the program can be found here:
 
-    <details><summary>Flow Chart</summary>
+<details>
 
-    </details>
+<summary>Flow Chart</summary>
+
+![flow chart](/views/readme_img/flow_chart.png)
+
+</details>
 
     The program is a comand line program that leads the user through series of questions and statements from start up to the end.
 
@@ -165,7 +169,16 @@ The code has been put through validation PEP8 validator added to Gitpod Workspac
 | TRUE/FALSE | End of the qiuz | Input TRUE or FALSE | A  message displayed with congratulation and  display the final  user score  |
 || 
 
+# Bugs
 
+* the questions answer was not taken the the lower case of False and True, this I have fixed with lower() and an list of[ true, false]
+* indentations cause me some erros which have fixe deleting the spaces at the beginning of a code line.
+* the code for title was not diplayed properly to Heroku , so I have fixed the issue by changing the code syntax.
+
+# Remaining bugs:
+
+* title when is displayed to Heroku is not seen up to not scrool up, I could not fixed.
+* the program is running inthe window without any margins and paddings.
 
 # Deployment
 
@@ -228,3 +241,24 @@ By forking out of this repository you will be able to view and edit the code wit
 
 
 </details>
+
+# Credits
+
+<details><summary>Code/Reference</summary></details>
+
+### Code/Reference 
+
+I have followed one main tutuorial and I work hard to understand the Object Oriented Programming and adapt as much as possible to my quiz diffrent.
+
+
+- Code Institute without I would have had no base to begin a project & Readme.md Template. For this template I have change the size of screen display for easy reaging.
+    https://codeinstitute.net/ie/
+- GitHub for my workspace and saving all my work as well as my deployed project . https://github.com/ ;  
+- The Slack community - for someone always been there no matter the time and with advice or direction. https://slack.com';
+- https://smartmortgages.ie/ - inspired me for building the site and get the content from them;
+- https://www.udemy.com/course/100-days-of-code/learn/lecture/19964920#overview - Udemy course help me to develop this project;
+- https://www.udemy.com/course/complete-python-bootcamp/learn/lecture/9478306?start=120#overview - Udemy course helps me to understand Object oriented programing in python;  - https://www.w3schools.com/ - guide me with python class and method;
+
+### Images
+- emoji image - ASCII Art from https://text-symbols.com/ascii-art/#all_cats
+
