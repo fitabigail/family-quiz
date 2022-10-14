@@ -2,7 +2,7 @@
 
 # Family Quiz
 
-Project is deployed [here]( https://family-quiz-pp3.herokuapp.com/)   
+The Project is deployed [here]( https://family-quiz-pp3.herokuapp.com/)   
 Github repository is [here](https://github.com/fitabigail/family-quiz) 
 
 ![I am responsive](/views/readme_img/imresponsive.png)
@@ -10,7 +10,7 @@ Github repository is [here](https://github.com/fitabigail/family-quiz)
 # Aim of the program
 
 The Family Quiz is a web application of ten questions quiz game built on a Python terminal that runs in the  Code Institute terminal on Heroku.
-The project was designed for the purpose of completing the Portofolio 3 Project for a Diploma in Software Development(E-commerce Applications)with the Code Institute.
+The project was designed for the purpose of completing the Portfolio 3 Project for a Diploma in Software Development(E-commerce Applications)with the Code Institute.
 
 
 
@@ -55,7 +55,7 @@ The project was designed for the purpose of completing the Portofolio 3 Project 
 *  The program starts with a welcome message and asks them to choose if want to see the quiz rules
 *  The user has the option to see the rules by typing 'yes' or to start the game by typing 'no'
 *  If the user type other than the words 'yes' or 'no' will get a message with an Invalid answer
-*  When the user starts the quiz he will be asked answer to each question by typing True/False
+*  When the user starts the quiz he will be asked  the answer to each question by typing True/False
 *  After each question, the user can see if the answer is correct, and his score 
 *  If the user is typing anything else than letters True/False will get a message of Invalid answer
 *  When the user answered all the quiz questions he will get a message of Congratulation and his final score
