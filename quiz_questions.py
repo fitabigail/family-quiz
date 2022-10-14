@@ -9,52 +9,59 @@ quiz_question_data = [
                     "of the September 11th terrorist attacks.",
         "correct_answer": "False",
         "incorrect_answers": ["True"]
-    }, {
+    },
+    {
         "category": "General Knowledge",
         "type": "boolean",
         "difficulty": "medium",
         "question": "The vapor produced by e-cigarettes is actually water.",
         "correct_answer": "False",
         "incorrect_answers": ["True"]
-    }, {
+    }, 
+    {
         "category": "General Knowledge",
         "type": "boolean",
         "difficulty": "medium",
         "question": "The sum of all the numbers on a roulette wheel is 666.",
         "correct_answer": "True",
         "incorrect_answers": ["False"]
-    }, {
+    }, 
+    {
         "category": "General Knowledge",
         "type": "boolean",
         "difficulty": "medium",
         "question": "Furby was released in 1998.",
         "correct_answer": "True",
         "incorrect_answers": ["False"]
-    }, {
+    }, 
+    {
         "category": "General Knowledge",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "The word &quot;news&quot; originates from the first"
+        "question": "The word originates from the first"
                     "letters of the 4 main directions on a compass" 
                     "(North, East, West, South).",
         "correct_answer": "False",
         "incorrect_answers": ["True"]
-    }, {
+    }, 
+    {
         "category": "General Knowledge",
         "type": "boolean",
         "difficulty": "medium",
         "question": "Kissing someone for one minute burns about 2 calories.",
         "correct_answer": "True",
         "incorrect_answers": ["False"]
-    }, {
+    }, 
+    {
         "category": "General Knowledge",
         "type": "boolean",
         "difficulty": "medium",
         "question": "Sitting for more than three hours a day can cut"
-                    "two years off a person&#039;s life expectancy.",
+                    "two years off a persons life expectancy.",
         "correct_answer": "True",
         "incorrect_answers": ["False"]
-    }, {
+    }, 
+    {
         "category": "General Knowledge",
         "type": "boolean",
         "difficulty": "medium",
@@ -63,7 +70,8 @@ quiz_question_data = [
                     "stuffing a chicken with snow.",
         "correct_answer": "True",
         "incorrect_answers": ["False"]
-    }, {
+    }, 
+    {
         "category": "General Knowledge",
         "type": "boolean",
         "difficulty": "medium",
@@ -71,12 +79,13 @@ quiz_question_data = [
                     "for The Campaign for Real Ale.",
         "correct_answer": "True",
         "incorrect_answers": ["False"]
-    }, {
+    }, 
+    {
         "category": "General Knowledge",
         "type": "boolean",
         "difficulty": "medium",
         "question": "The commercial UK channel ITV stands for "
-                    "&quot;International Television&quot;.",
+                    "International Television.",
         "correct_answer": "False",
         "incorrect_answers": ["True"]
     }]

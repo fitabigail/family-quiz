@@ -5,7 +5,7 @@
 The Project is deployed [here]( https://family-quiz-pp3.herokuapp.com/)   
 GitHub repository is [here](https://github.com/fitabigail/family-quiz) 
 
-![I am responsive](/views/readme_img/imresponsive.png)
+![I am responsive](./asset/readme_img/imresponsive.png)
 
 # Aim of the program
 
@@ -43,7 +43,7 @@ The project was designed for the purpose of completing the Portfolio 3 Project f
     The flow chart showing the logic of the program can be found here:
 
 
-![flow chart](/views/readme_img/flow_chart.png)
+![flow chart](./asset/readme_img/flow_chart.png)
 
 
 
@@ -60,12 +60,13 @@ The project was designed for the purpose of completing the Portfolio 3 Project f
 
 # Feature
 
+*  Used Object Oriented progarmming to create class Quiz as _init_ , and class QuizBrain for the actions take on quiz all called on run.py.
 *  TITLE FamilyQuiz - gives a nice introduction to the quiz, and suggests the topic of the quiz. Pyfiglet library was called to display the Title. From pyfiglet imported figlet_format method to convert ASCII text into ASCII art fonts. Chosen font for the title was 'slant'.
 
 *  IMAGE - [ASCII art](https://text-symbols.com/ascii-art/#all_cats) the emoji is shown when the program starts. This gives a nice introduction to the quiz with the image of an emoji wishing good luck to the player.
 
 
-![emoji](/views/readme_img/emoji.png)
+![emoji](./asset/readme_img/emoji.png)
 
 *  COLORAMA added a feature to allow different colors of fonts to display in the terminal. This feature aims to help the user understand what the program is doing or what is expected of the user. Since the command-line is not user-friendly, the user is not used to reading various lines to understand that there was an error returned. Once the error message is in red it stands out amongst other lines and allows the user to act on it.
 
@@ -80,23 +81,23 @@ Various colors are used to help the user better understand the requirements of t
 
 
 
-![title](/views/readme_img/title.png)
+![title](./asset/readme_img/title.png)
 
-![error](/views/readme_img/rules_err.png)
+![error](./asset/readme_img/rules_err.png)
 
-![correct](/views/readme_img/correct_ans.png)
+![correct](./asset/readme_img/correct_ans.png)
 
-![rules](/views/readme_img/rules.png)
+![rules](./asset/readme_img/rules.png)
 
 
-![score](/views/readme_img/final_score.png)
+![score](./asset/readme_img/final_score.png)
 
 
 
 
 * Validation Various validation on user input allows the user to run the program without errors. Validation aims to capture various incorrect entries by the user and give feedback to the user. This way the user can give correct input and the program will give the user result. This also prevents the program from crashing. An example of an error validation message can be found below:
 
-![error](/views/readme_img/rules_err.png)
+![error](./asset/readme_img/rules_err.png)
 
 * The terminal of 80 characters wide and 24 rows high
 
@@ -136,7 +137,7 @@ The code has been put through validation PEP8 validator added to Gitpod Workspac
    * select pycodestyle from the list (image 2).
    * PEP8 errors will now be underlined in red, as well as listed in the PROBLEMS tab beside your terminal.
 
-* run.py -  errors to lines 51, 54, 76 "errors defaults to 'strict'", line 77 "continuation line over-indented"
+* run.py -  errors to lines 51, 54, 76 "errors defaults to 'strict'", line 77 "continuation line over-indented", 105 "line to long"
 * brain.py - errors line 36 "errors defaults to 'strict'", and line 43 "line too long"
 * Gramarly - Used [gramarly](https://app.grammarly.com) for spell check for README.md 
 
@@ -250,9 +251,11 @@ I have followed one main tutorial and I work hard to understand  Object Oriented
     https://codeinstitute.net/ie/
 - GitHub for my workspace and saving all my work as well as my deployed project. https://github.com/ ;  
 - The Slack community - for someone always been there no matter the time and with advice or direction. https://slack.com';
+-  Open Trivia DB API- for quiz questions format. https://opentdb.com/api_config.php
 - https://smartmortgages.ie/ - inspired me for building the site and get the content from them;
 - https://www.udemy.com/course/100-days-of-code/learn/lecture/19964920#overview - Udemy course help me to develop this project;
-- https://www.udemy.com/course/complete-python-bootcamp/learn/lecture/9478306?start=120#overview - Udemy course helps me to understand Object-oriented programming in python;  - https://www.w3schools.com/ - guide me with python class and method;
+- https://www.udemy.com/course/complete-python-bootcamp/learn/lecture/9478306?start=120#overview - Udemy course helps me to understand Object-oriented programming in python; 
+- https://www.w3schools.com/ - guide me with python class and method;
 
 ### Images
 - emoji image - ASCII Art from https://text-symbols.com/ascii-art/#all_cats

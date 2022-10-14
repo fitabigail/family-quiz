@@ -98,11 +98,12 @@ quiz_new = QuizBrain(quiz_list)
 
 while quiz_new.another_question():
     """
-    check if the qiuz still has questions
+    check if the quiz still has questions
     """
-    quiz_new.next_quest()
+    quiz_new.next_quest() 
 
-print("Congrats you have complete the Quiz!\n")  
+title = pyfiglet.figlet_format("Congrats you complete Family Quiz", font="slant") 
+print(f'{Fore.YELLOW}{title}') 
 print(f"{Fore.CYAN}Your final score was: {quiz_new.score}/{len(quiz_list)}")
 
 
