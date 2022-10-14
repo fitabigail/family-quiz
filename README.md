@@ -175,6 +175,7 @@ The code has been put through validation PEP8 validator added to Gitpod Workspac
 * the questions answer was not taken the the lower case of False and True, this I have fixed with lower() and an list of[ true, false]
 * indentations cause me some erros which have fixe deleting the spaces at the beginning of a code line.
 * the code for title was not diplayed properly to Heroku , so I have fixed the issue by changing the code syntax.
+* on deployment the program was not fit to the window I have fixed the issue by changing the didlay size 100cols with 40rows.
 
 # Remaining bugs:
 * no bugs remaining that Iam aware of.
