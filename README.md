@@ -3,7 +3,7 @@
 # Family Quiz
 
 The Project is deployed [here]( https://family-quiz-pp3.herokuapp.com/)   
-Github repository is [here](https://github.com/fitabigail/family-quiz) 
+GitHub repository is [here](https://github.com/fitabigail/family-quiz) 
 
 ![I am responsive](/views/readme_img/imresponsive.png)
 
@@ -55,7 +55,7 @@ The project was designed for the purpose of completing the Portfolio 3 Project f
 *  The program starts with a welcome message and asks them to choose if want to see the quiz rules
 *  The user has the option to see the rules by typing 'yes' or to start the game by typing 'no'
 *  If the user type other than the words 'yes' or 'no' will get a message with an Invalid answer
-*  When the user starts the quiz he will be asked  the answer to each question by typing True/False
+*  When the user starts the quiz he will be asked the answer to each question by typing True/False
 *  After each question, the user can see if the answer is correct, and his score 
 *  If the user is typing anything else than letters True/False will get a message of Invalid answer
 *  When the user answered all the quiz questions he will get a message of Congratulation and his final score
@@ -70,7 +70,7 @@ The project was designed for the purpose of completing the Portfolio 3 Project f
 
 ![emoji](/views/readme_img/emoji.png)
 
-*  COLORAMA added a feature to allow different colors of fonts to display in the terminal. This feature aims to help the user understand what the program is doing or what is expected of the user. Since the command-line is not user-friendly, the user is not used to reading various lines to understand that there was an error returned. Once the  error message is in red it stands out amongst other lines and allows the user to act on it.
+*  COLORAMA added a feature to allow different colors of fonts to display in the terminal. This feature aims to help the user understand what the program is doing or what is expected of the user. Since the command-line is not user-friendly, the user is not used to reading various lines to understand that there was an error returned. Once the error message is in red it stands out amongst other lines and allows the user to act on it.
 
 Various colors are used to help the user better understand the requirements of the program:
 
@@ -130,8 +130,8 @@ Styling in the terminal is very limited. The interaction with the user is by Val
 - Code Institute template with HTML and CSS
 - Python
 - Libraries:
-    * colorama
-    * pyfiglet
+    * Colorama
+    * Pyfiglet
     
 ## Validation
     
@@ -144,8 +144,8 @@ The code has been put through validation PEP8 validator added to Gitpod Workspac
    * select pycodestyle from the list (image 2).
    * PEP8 errors will now be underlined in red, as well as listed in the PROBLEMS tab beside your terminal.
 
-* run.py -  errors to lines 51, 54, 76 "errors defaults to 'strict'", line 77 "countinuation line over-indente"
-* brain.py - errrors line 36 "erros defaults to 'strict'" , and line 43 "line too long"
+* run.py -  errors to lines 51, 54, 76 "errors defaults to 'strict'", line 77 "continuation line over-indented"
+* brain.py - errors line 36 "errors defaults to 'strict'", and line 43 "line too long"
 
 ## Testing
 
@@ -161,13 +161,13 @@ The code has been put through validation PEP8 validator added to Gitpod Workspac
 | Questions input:    |
 ||
 | TRUE | If the answer is TRUE message correct | Input true or TRUE| A correct answer message  is displayed if TRUE, if not TRUE incorrect answer is displayed and added to the score and displays the user score  |
-| FALSE | If the answer is FALSE message correct | Input false/FALSE | A correct answer message displayed if FALSE, if not FALSE incorrect answer displayed and added to score and display  user score|
+| FALSE | If the answer is FALSE message correct | Input false/FALSE | A correct answer message is displayed if FALSE, if not FALSE incorrect answer displayed and added to score and display user score|
 | Invalid | Invalid answer message is displayed and the user prompter to enter valid answer| input various characters other than yes TRUE or FALSE | Invalid answer message is displayed and the user prompter to enter valid answer|
 || 
 |--|--|--|-- |
 | Questions input:    |
 ||
-| TRUE/FALSE | End of the quiz | Input TRUE or FALSE | A  message displayed with congratulation and  display the final  user score  |
+| TRUE/FALSE | End of the quiz | Input TRUE or FALSE | A  message is displayed with congratulation and  displays the final  user e score  |
 || 
 
 # Bugs
@@ -192,24 +192,24 @@ The site was deployed to Heroku. Please follow the below steps.
 2. Git add and git commit the changes made
 3. Log into [Heroku](https://dashboard.heroku.com/apps) or create a new account and log in
 
-4. top right-hand corner click "New" and choose the option Create new app, if you are a new user, the "Create new app" button will appear in the middle of the screen
-5. Write app name - it has to be unique, it cannot be the same as this app
+4. top right-hand corner click "New" and choose the option Create new app if you are a new user, the "Create new app" button will appear in the middle of the screen
+5. Write the app name - it has to be unique, it cannot be the same as this app
 6. Choose Region - I am in Europe
 7. Click "Create App"
 
 The page of your project opens.
-8. Choose "settings" from the menu on the top of the page
-9. Go to section "Config Vars" and click button "Reveal Config Vars"
+8. Choose "settings" from the menu at the top of the page
+9. Go to section "Config Vars" and click the button "Reveal Config Vars"
 10. Add another key "PORT" and value "8000"
 
-11. Go to section "Build packs" and click "Add build pack"
+11. Go to the section "Build packs" and click "Add build pack"
     - in this new window - click Python and "Save changes"
     - click "Add build pack" again
     - in this new window - click Node.js and "Save changes"
     - take care to have those apps in this order: Python first, Node.js second, drag and drop if needed
 
-12. Next go to "Deploy" in the menu bar on the top 
-13. Go to section "deployment method", choose "GitHub"
+12. Next go at "Deploy" in the menu bar on the top 
+13. Go to the section "deployment method", and choose "GitHub"
 14. New section will appear "Connect to GitHub" - Search for the repository to connect to
 15. type the name of your repository and click "search"
 16. once Heroku finds your repository - click "connect"
@@ -218,7 +218,7 @@ The page of your project opens.
 18. Click "Enable automatic deploys" or choose "Deploy branch" and manually deploy
 19. Click "Deploy branch"
 
-Once the program runs you should see the message "the app was sussesfully deployed"
+Once the program runs you should see the message "the app was succesfully deployed"
 20. Click the button "View"
 
 </details>
@@ -228,16 +228,16 @@ Once the program runs you should see the message "the app was sussesfully deploy
 ### Forking the GitHub repository
 By forking out of this repository you will be able to view and edit the code without affecting the original repository. 
 
-1. Locate the GitHub repository. Link can be found [here](https://github.com/fitabigail/family-quiz).
+1. Locate the GitHub repository. The link can be found [here](https://github.com/fitabigail/family-quiz).
 2. Click the button in the top right-hand corner "Fork"
 3. This will take you to your own repository to a fork that is called the same as the original branch. 
 
 ### Making a local clone
 
-1. Locate the GitHub repository. Link can be found [here](https://github.com/fitabigail/family-quiz).
+1. Locate the GitHub repository. The link can be found [here](https://github.com/fitabigail/family-quiz).
 2. Next to the green Gitpod button you will see a button "code" with an arrow pointing down
-3. You are given the option to open with GitHub desktop or download zip
-4. You can also copy https full link, go to git bash and write git clone and paste the full link
+3. You are given the option to open with GitHub desktop or download a zip
+4. You can also copy HTTPS full link, go to git bash and write git clone and paste the full link
 
 
 </details>
@@ -255,7 +255,7 @@ I have followed one main tutorial and I work hard to understand  Object Oriented
 
 - Code Institute without I would have had no base to begin a project & Readme.md Template. For this template, I have changed the size of the screen display for easy reading.
     https://codeinstitute.net/ie/
-- GitHub for my workspace and saving all my work as well as my deployed project . https://github.com/ ;  
+- GitHub for my workspace and saving all my work as well as my deployed project. https://github.com/ ;  
 - The Slack community - for someone always been there no matter the time and with advice or direction. https://slack.com';
 - https://smartmortgages.ie/ - inspired me for building the site and get the content from them;
 - https://www.udemy.com/course/100-days-of-code/learn/lecture/19964920#overview - Udemy course help me to develop this project;
