@@ -138,6 +138,7 @@ The code has been put through validation PEP8 validator added to Gitpod Workspac
 
 * run.py -  errors to lines 51, 54, 76 "errors defaults to 'strict'", line 77 "continuation line over-indented"
 * brain.py - errors line 36 "errors defaults to 'strict'", and line 43 "line too long"
+* Gramarly - Used [gramarly](https://app.grammarly.com) for spell check for README.md 
 
 ## Testing
 
