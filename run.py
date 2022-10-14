@@ -102,7 +102,7 @@ while quiz_new.another_question():
     """
     quiz_new.next_quest() 
 
-title = pyfiglet.figlet_format("Congrats you complete Family Quiz", font="standard") 
+title = pyfiglet.figlet_format("Congrats \n you complete \n Family Quiz", font="standard") 
 print(f'{Fore.YELLOW}{title}') 
 print(f"{Fore.CYAN}Your final score was: {quiz_new.score}/{len(quiz_list)}")
 
