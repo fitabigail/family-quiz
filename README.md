@@ -42,13 +42,10 @@ The project was designed for the purpose of completing the Portfolio 3 Project f
 
     The flow chart showing the logic of the program can be found here:
 
-<details>
-
-<summary>Flow Chart</summary>
 
 ![flow chart](/views/readme_img/flow_chart.png)
 
-</details>
+
 
     The program is a command line program that leads the user through a series of questions and statements from start to end.
 
@@ -81,11 +78,6 @@ Various colors are used to help the user better understand the requirements of t
 * the title is displayed in yellow
 * the score is displayed in blue
 
-<details>
-  
-  <summary>Color Message Images</summary>
-
-
 
 
 ![title](/views/readme_img/title.png)
@@ -100,7 +92,7 @@ Various colors are used to help the user better understand the requirements of t
 ![score](/views/readme_img/final_score.png)
 
 
-</details>
+
 
 * Validation Various validation on user input allows the user to run the program without errors. Validation aims to capture various incorrect entries by the user and give feedback to the user. This way the user can give correct input and the program will give the user result. This also prevents the program from crashing. An example of an error validation message can be found below:
 
