@@ -137,7 +137,7 @@ The code has been put through validation PEP8 validator added to Gitpod Workspac
    * select pycodestyle from the list (image 2).
    * PEP8 errors will now be underlined in red, as well as listed in the PROBLEMS tab beside your terminal.
 
-* run.py -  errors to lines 51, 54, 76 "errors defaults to 'strict'", line 77 "continuation line over-indented", 105 "line to long"
+* run.py -  errors to lines 51, 54, 76 "errors defaults to 'strict'", line 77 "continuation line over-indented", 107 "line to long"
 * brain.py - errors line 36 "errors defaults to 'strict'", and line 43 "line too long"
 * Gramarly - Used [gramarly](https://app.grammarly.com) for spell check for README.md 
 
