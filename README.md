@@ -16,7 +16,7 @@ The project was designed for the purpose of completing the Portfolio 3 Project f
 
 # User stories
 
-### First time visitor
+### First-time visitor
 
 - I want to be able to open the quiz program
 - I want to be able to check the rules of the Quiz
@@ -27,7 +27,7 @@ The project was designed for the purpose of completing the Portfolio 3 Project f
 
 ### The goals were accomplished in the following ways
 
-- First time visitor is given the option to see or skip the quiz rules.
+- First-time visitor is given the option to see or skip the quiz rules.
 - First-time visitors can play the Quiz. 
 - Once start the Quiz the user can keep track of the score.
 - After the quiz is completed the user can check his score on the terminal
@@ -60,7 +60,7 @@ The project was designed for the purpose of completing the Portfolio 3 Project f
 
 # Feature
 
-*  Used Object Oriented progarmming to create class Quiz as _init_ , and class QuizBrain for the actions take on quiz all called on run.py.
+*  Used Object Oriented programming to create class Quiz as _init_, and class QuizBrain for the actions taken on quiz all called on run.py.
 *  TITLE FamilyQuiz - gives a nice introduction to the quiz, and suggests the topic of the quiz. Pyfiglet library was called to display the Title. From pyfiglet imported figlet_format method to convert ASCII text into ASCII art fonts. Chosen font for the title was 'slant'.
 
 *  IMAGE - [ASCII art](https://text-symbols.com/ascii-art/#all_cats) the emoji is shown when the program starts. This gives a nice introduction to the quiz with the image of an emoji wishing good luck to the player.
@@ -255,7 +255,7 @@ I have followed one main tutorial and I work hard to understand  Object Oriented
 - https://smartmortgages.ie/ - inspired me for building the site and get the content from them;
 - https://www.udemy.com/course/100-days-of-code/learn/lecture/19964920#overview - Udemy course help me to develop this project;
 - https://www.udemy.com/course/complete-python-bootcamp/learn/lecture/9478306?start=120#overview - Udemy course helps me to understand Object-oriented programming in python; 
-- https://www.w3schools.com/ - guide me with python class and method;
+- https://www.w3schools.com/ - guide me with Python class and method;
 
 ### Images
 - emoji image - ASCII Art from https://text-symbols.com/ascii-art/#all_cats
